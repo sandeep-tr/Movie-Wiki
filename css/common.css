@@ -1,0 +1,20 @@
+form { 
+	margin: 5% auto; 
+	width: 325px;
+}
+#searchResultWindow, #movieInfoWindow{ 
+	width: 50%;
+	float: left;
+}
+ul.circle{
+	list-style-type: circle;
+	margin-top: 0px;
+}
+img.float{
+	float: left;
+	margin-right: 3%;
+}
+span.title{
+	font-size: 28px;
+	font-weight: bold;
+}

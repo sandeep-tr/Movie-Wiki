@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- Developer Name: Sandeep Raveendran Thandassery -->
+<html lang="en">
+  <head>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="static/css/common.css">
+    <script type="text/javascript" src="static/js/movie-wiki.js"></script>
+  </head>
+  
+  <body onload="initialize();">
+    <form>
+       <label>Movie title: <input type="text" id="searchBox"/></label>
+       <input type="button" onclick="searchMovie();" value="Display Info"/>
+    </form>
+    <div id="searchResultWindow"></div>
+	<div id="movieInfoWindow"></div>
+  </body>
+</html>
